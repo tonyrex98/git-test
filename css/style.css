@@ -1,0 +1,26 @@
+body {
+    font-family: "Open sans", sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: "Lobster", cursive;
+}
+
+h2 {
+    color: blue;
+}
+
+header h2 {
+    color:aqua;
+}
+
+footer {
+    background-image: linear-gradient(yellow, white);
+    padding: 20px 0;
+}
+
+.jumbotron {
+    padding: 30;
+    background-image: linear-gradient( to right, red, green, purple);
+    color: white;
+}
