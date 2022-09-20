@@ -1,26 +1,39 @@
 body {
     font-family: "Open sans", sans-serif;
 }
+H1 {
+    text-align: center;
+}
+#Discover {
+   text-align:center;
+   text-indent: px;
+}
+title{
+    color:rgb(255, 255, 255);
+   font-size: 18px;
+    text-align: center;
+    padding-bottom: 20px;
+}
 
 h1, h2, h3 {
     font-family: "Lobster", cursive;
 }
 
 h2 {
-    color: blue;
+    color: rgb(0, 0, 0);
 }
 
 header h2 {
-    color:aqua;
+    color:rgb(190, 228, 228);
 }
 
 footer {
-    background-image: linear-gradient(blue, white);
+    background-image: linear-gradient(rgb(139, 82, 255), white);
     padding: 20px 0;
 }
 
 .jumbotron {
     padding: 30;
-    background-image: linear-gradient( to right, green, purple);
+    background-image: linear-gradient( to right,blue, purple);
     color: white;
 }
