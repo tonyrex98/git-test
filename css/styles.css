@@ -1,18 +1,5 @@
 body {
-    font-family: "Open sans", sans-serif;
-}
-H1 {
-    text-align: center;
-}
-#Discover {
-   text-align:center;
-   text-indent: px;
-}
-title{
-    color:rgb(255, 255, 255);
-   font-size: 18px;
-    text-align: center;
-    padding-bottom: 20px;
+    font-family: "Open Sans", sans-serif;
 }
 
 h1, h2, h3 {
@@ -20,20 +7,33 @@ h1, h2, h3 {
 }
 
 h2 {
-    color: rgb(0, 0, 0);
+    color: #3046C5;
 }
 
 header h2 {
-    color:rgb(190, 228, 228);
+    color: #CEC8FF;
 }
 
 footer {
-    background-image: linear-gradient(rgb(139, 82, 255), white);
+    background-image: linear-gradient(#CEC8FF, white);
     padding: 20px 0;
 }
 
 .jumbotron {
-    padding: 30;
-    background-image: linear-gradient( to right,blue, purple);
+    padding: 30px;
+    background-image: linear-gradient(to right, #5637DD, #3046C5, #60106B);
     color: white;
 }
+
+.row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+}
+
+.navbar {
+    background-color: #901CAD;
+}
+
+.jumbotron {
+    margin: 0px;
